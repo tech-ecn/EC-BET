@@ -1,0 +1,32 @@
+.Nav {
+	display: flex;
+	justify-content: center;
+	height: 3.5rem;
+	background-color: white;
+	box-shadow: 0px 4px 4px 0px #0000000d;
+	.outer {
+		width: 95%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.right {
+			align-items: center;
+			display: flex;
+			.bttn {
+				background: linear-gradient(100.46deg, #1bbf98 11.04%, #079167 57.79%);
+				border-radius: 4px;
+			}
+			.circle {
+				align-items: center;
+				display: flex;
+				img {
+					height: 100%;
+				}
+				padding: 0 1rem;
+				border-radius: 50%;
+				height: 2.5rem;
+				width: 2.5rem;
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+.questionsSection {
+	margin-bottom: 1rem;
+	.title {
+		display: flex;
+		justify-content: space-between;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+	.title,
+	.data {
+		margin: 0 auto;
+		width: 56%;
+		text-align: left;
+		padding: 1.4rem 1rem;
+		font-size: 16px;
+		font-weight: 400;
+		border-bottom: 1px solid rgb(218, 213, 213);
+		box-shadow: 0px 6px 40px 5px #cdccee;
+	}
+	.data {
+		border: 0px;
+		border-top: 1px solid rgb(218, 213, 213);
+		color: rgb(102, 100, 100);
+	}
+}

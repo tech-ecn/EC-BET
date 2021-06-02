@@ -1,0 +1,26 @@
+#Main {
+	display: flex;
+	justify-content: center;
+	background: #f7f7f7;
+
+	--padding-sides: 1rem;
+	.Base {
+		width: 95%;
+		display: flex;
+		justify-content: center;
+		min-height: 100px;
+		.Context {
+			padding: 1rem var(--padding-sides);
+			height: fit-content;
+		}
+		.Left {
+			width: 25%;
+		}
+		.Center {
+			width: 50%;
+		}
+		.Right {
+			width: 25%;
+		}
+	}
+}

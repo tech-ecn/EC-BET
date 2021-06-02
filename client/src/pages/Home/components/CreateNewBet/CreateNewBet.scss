@@ -1,0 +1,52 @@
+.CreateNewBet {
+	// width: calc(100% - 4rem);
+	.form {
+		.wrapper {
+			font-weight: 500;
+			padding-bottom: 0.45rem;
+			font-size: 0.75rem;
+			.label {
+				p {
+					padding: 0.25rem 0.5rem 0.5rem;
+				}
+			}
+			input[type='text'],
+			input[type='date'] {
+				width: calc(100% - 0.5rem);
+				padding: 1.3rem 1rem;
+				background: #fcfaff;
+				border: 1px solid #ece1ff;
+				box-sizing: border-box;
+				border-radius: 3px;
+				height: 2rem;
+				font-size: 0.9rem;
+				color: black;
+				&::placeholder {
+					font-family: Roboto;
+					color: #aeaeae;
+				}
+			}
+			select {
+				background-color: #fcfaff;
+				outline: none;
+				border: 0px;
+				width: calc(100% - 0.5rem);
+				padding: 1.3rem 1rem;
+				color: rgb(58, 58, 58);
+			}
+		}
+		.wrapper {
+			// padding: ;
+			// max-width: 100%;
+			padding: 0.25rem 0.5rem 0.5rem;
+			// overflow: hidden;
+			.bttn {
+				width: 98%;
+				padding-left: 0;
+				padding-right: 0;
+				background: linear-gradient(100.46deg, #1bbf98 11.04%, #079167 57.79%);
+				border-radius: 4px;
+			}
+		}
+	}
+}

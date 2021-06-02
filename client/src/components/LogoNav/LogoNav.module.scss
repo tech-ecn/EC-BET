@@ -1,0 +1,21 @@
+.navContainer {
+	padding: 3rem 10rem;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1rem;
+	ul {
+		li {
+			display: inline-block;
+			margin-left: 1.4rem;
+			font-size: 13px;
+			color: #fff;
+			padding-bottom: 0.4rem;
+			border-bottom: 3.5px solid transparent;
+
+			&:hover {
+				border-bottom: 3.5px solid #2dc094;
+				cursor: pointer;
+			}
+		}
+	}
+}

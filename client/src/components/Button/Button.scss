@@ -1,0 +1,16 @@
+#custom-button {
+	background: linear-gradient(100.46deg, #1bbf98 11.04%, #079167 57.79%);
+	border-radius: 4px;
+	outline: none;
+	border: 0px;
+	padding: 0.8rem 2.5rem;
+	margin-bottom: 0.5rem;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 4px;
+
+	&:hover {
+		cursor: pointer;
+	}
+}

@@ -1,0 +1,31 @@
+.RightCard {
+	.card {
+		background: linear-gradient(180deg, #1bbf98 0%, #065f1f 100%);
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+		border-radius: 4px;
+		cursor: pointer;
+		margin: 1rem 0;
+		margin-top: 0;
+		.outer {
+			padding: 0.5rem 0.75rem;
+			justify-content: space-between;
+			display: flex;
+			align-items: center;
+			.bal {
+				color: white;
+				.num {
+					font-size: 2rem;
+					padding: 0.75rem 0;
+				}
+				font-weight: 400;
+			}
+		}
+	}
+}
+.WalletBalance {
+	.card {
+		background: linear-gradient(100.46deg, #38da66 11.04%, #079167 57.79%);
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		border-radius: 4px;
+	}
+}

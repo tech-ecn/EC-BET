@@ -1,0 +1,26 @@
+body {
+	font-family: Roboto;
+	font-size: 1rem;
+	font-style: normal;
+	line-height: 15px;
+}
+
+.bttn {
+	cursor: pointer;
+	user-select: none;
+	padding: 1rem 2rem;
+	background: linear-gradient(100.46deg, #e20070 11.04%, #33008d 57.79%);
+	border-radius: 4px;
+
+	display: flex;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	width: fit-content;
+	font-size: 0.9rem;
+}
+
+.header {
+	font-size: 1.2rem;
+	font-weight: 600;
+}

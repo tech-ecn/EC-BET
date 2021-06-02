@@ -1,0 +1,21 @@
+.REGISTER {
+	.registerContainer {
+		p {
+			font-size: 13px;
+			color: #fff;
+			margin-top: 1rem;
+			&:hover {
+				cursor: pointer;
+			}
+		}
+		button {
+			margin-bottom: 0.4rem;
+			outline: none;
+			border: none;
+			font-size: 13px;
+			color: #fff;
+			background: linear-gradient(238.68deg, #38da66 -3.34%, #5cc6d0 68.91%);
+			border-radius: 3px;
+		}
+	}
+}

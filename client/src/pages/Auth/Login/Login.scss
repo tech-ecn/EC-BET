@@ -1,0 +1,12 @@
+.LOGIN {
+	.loginContainer {
+		p {
+			font-size: 13px;
+			color: #fff;
+			margin-top: 1.6rem;
+			&:hover {
+				cursor: pointer;
+			}
+		}
+	}
+}

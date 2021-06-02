@@ -1,0 +1,18 @@
+.FeaturedBet {
+	.featured {
+		padding: 0.5rem;
+		padding-bottom: 1.5rem;
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+		.text {
+			padding: 0.75rem 0;
+			max-width: 80%;
+		}
+		.bttn {
+			background: linear-gradient(100.46deg, #1bbf98 11.04%, #079167 57.79%);
+			border-radius: 4px;
+		}
+	}
+}

@@ -1,0 +1,261 @@
+.LANDING {
+	font-family: Roboto, sans-serif;
+	background-color: #152900;
+	.landingTopSection {
+		background: url('../../assets/auth-bg.png'), linear-gradient(180deg, #152900 0%, #042c27 100%);
+		height: 100vh;
+		width: 100vw;
+		.landingTopDataContainer {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 80%;
+			margin: 0 auto;
+			position: relative;
+			#textContainer {
+				position: absolute;
+				left: 10;
+				p {
+					font-size: 13px;
+					color: #2fbd93;
+					margin: 0px;
+				}
+				p:last-of-type {
+					width: 48%;
+					margin-bottom: 1.4rem;
+				}
+				#boldData {
+					font-size: 40px;
+					font-weight: bold;
+					color: #fff;
+					margin: 2.4rem 0;
+					span {
+						display: block;
+						margin-top: 1.6rem;
+					}
+				}
+				button {
+					background: linear-gradient(238.68deg, #38da66 -3.34%, #235768 68.91%);
+					border-radius: 3px;
+					border: 0px;
+					outline: none;
+					padding: 0.6rem 2rem;
+					font-size: 18px;
+					color: #fff;
+				}
+			}
+		}
+	}
+	.landingCenterSection {
+		box-shadow: 5px 14px 8px rgba(30, 0, 35, 0.1);
+		text-align: center;
+		width: 100vw;
+		margin-top: 3rem;
+		.workdemoContainer {
+			background: linear-gradient(180deg, rgba(7, 145, 103, 0.5) 0%, rgba(0, 98, 68, 0.5) 100%);
+			box-shadow: 5px 14px 8px rgba(30, 0, 35, 0.1);
+			width: 70%;
+			margin: 0 auto;
+			padding: 3rem;
+			margin-bottom: 3rem;
+			.processesHeading {
+				p {
+					font-size: 13px;
+					font-family: Orienta, sans-serif;
+					color: #5cc6d0;
+					margin-bottom: 1rem;
+				}
+				p:last-of-type {
+					font-size: 24px;
+					color: #fff;
+				}
+			}
+			#imageContainer {
+				display: flex;
+				margin-top: 10vh;
+				.imageSection {
+					display: flex;
+					.data {
+						.heading {
+							font-size: 18px;
+							width: 100%;
+							font-weight: bold;
+							color: #fff;
+							margin: 1rem 0;
+						}
+						p {
+							color: #fff;
+							font-size: 13px;
+							width: 70%;
+							margin: 0 auto;
+						}
+					}
+				}
+				.vertical {
+					transform: rotate(90deg);
+					height: 1px;
+					width: 15rem;
+					margin-top: 3.4rem;
+					background-color: #5cc6d0;
+				}
+			}
+		}
+		.ecbetNetworkContainer {
+			display: flex;
+			align-items: center;
+			width: 70%;
+			margin: 0 auto;
+			.networkDataContainer {
+				text-align: left;
+				margin-right: 3.4rem;
+				p {
+					color: #fff;
+					font-size: 13px;
+					margin-bottom: 1.4rem;
+				}
+				.heading {
+					font-size: 24px;
+					margin-bottom: 1.4rem;
+				}
+				button {
+					background: linear-gradient(238.68deg, #5cc6d0 -3.34%, #38da66 68.91%);
+					border-radius: 3px;
+					border: 0px;
+					outline: none;
+					padding: 0.6rem 2rem;
+					font-size: 18px;
+					color: #fff;
+				}
+			}
+		}
+		.featuresContainer {
+			padding-top: 10rem;
+			.stack {
+				display: flex;
+				align-items: baseline;
+				justify-content: center;
+				padding-bottom: 3.4rem;
+
+				.featureContainer {
+					margin-left: 2.4rem;
+					display: flex;
+					align-items: flex-start;
+					justify-content: center;
+					width: 24%;
+					.data {
+						margin: 0.7rem 0 1rem 1rem;
+						p {
+							text-align: left;
+							color: rgba(255, 255, 255, 0.6);
+							font-size: 13px;
+						}
+						p:first-of-type {
+							font-size: 24px;
+							color: #fff;
+							margin-bottom: 1rem;
+						}
+						span {
+							display: block;
+							margin-top: 1rem;
+						}
+					}
+				}
+			}
+		}
+		.questionsContainer {
+			background-color: #fff;
+			padding: 2rem 0;
+			p {
+				font-family: 13px;
+				color: gray;
+				margin-top: 1.4rem;
+			}
+			#important {
+				color: darken(gray, 30);
+				font-size: 40px;
+				margin-top: 1;
+			}
+			.options-container {
+				p {
+					display: inline-block;
+					box-shadow: 0px 6px 15px 5px #cdccee;
+					border-radius: 3rem;
+					padding: 0.4rem 1rem;
+					margin: 3rem 0.4rem;
+					font-size: 13px;
+					color: #11042c;
+					&:hover {
+						background: linear-gradient(238.68deg, #5cc6d0 -3.34%, #38da66 68.91%);
+						cursor: pointer;
+						color: white;
+					}
+				}
+			}
+			.questionsSection {
+				.title,
+				.data {
+					margin: 0 auto;
+					width: 56%;
+					text-align: left;
+					padding: 1.4rem 1rem;
+					font-size: 16px;
+					font-weight: 400;
+					border-bottom: 1px solid rgb(218, 213, 213);
+					box-shadow: 0px 6px 40px 5px #cdccee;
+				}
+				.data {
+					border: 0px;
+					border-top: 1px solid rgb(218, 213, 213);
+					color: rgb(102, 100, 100);
+				}
+			}
+		}
+		.newsletterContainer {
+			background-color: #003f2c;
+			padding: 4rem 0;
+			#heading {
+				font-size: 24px;
+				color: #fff;
+			}
+			#emailContainer {
+				margin-top: 3rem;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				input {
+					background-color: transparent;
+					outline: none;
+					border: 1px solid #33008d;
+					font-size: 21px;
+					width: 36vw;
+					padding: 0.9rem 1rem;
+					color: #fff;
+					&::placeholder {
+						color: rgba(255, 255, 255, 0.3);
+					}
+				}
+				button {
+					outline: none;
+					border: none;
+					padding: 0.8rem 2.6rem;
+					background: linear-gradient(111.16deg, #38da66 -2.46%, #5cc6d0 63.95%);
+					font-weight: bold;
+					font-size: 24px;
+					color: #fff;
+				}
+			}
+			#disclaimer {
+				font-size: 13px;
+				width: 40%;
+				margin: 1.4rem auto;
+				color: rgba(255, 255, 255, 0.5);
+			}
+		}
+	}
+	.footerContainer {
+		color: #fff;
+		padding: 1.6rem 0;
+		text-align: center;
+		font-size: 13px;
+	}
+}

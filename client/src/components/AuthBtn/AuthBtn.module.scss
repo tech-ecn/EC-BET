@@ -1,0 +1,18 @@
+.authBtnContainer {
+	text-align: center;
+	button {
+		width: 75%;
+		background: linear-gradient(238.68deg, #38da66 -3.34%, #5cc6d0 68.91%);
+		border-radius: 3px;
+		outline: none;
+		border: none;
+		font-size: 18px;
+		color: #fff;
+		font-weight: bold;
+		padding: 1.3rem 1rem;
+
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}
